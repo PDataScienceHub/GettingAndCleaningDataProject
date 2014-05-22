@@ -31,9 +31,6 @@ CleaningData <- function(rawDir, tidyCSVFilename) {
         # Merge the training and the test sets to 
         # create one data set
         
-        # topDir is the  directory
-        # where the data for this assignment is located.
-        # E.g. "UCI HAR Dataset"
         
         print("Merging Datasets ...")
         mergedData <- MergeData(rawDir)
