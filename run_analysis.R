@@ -244,7 +244,7 @@ BeautifyColumnHeadings <- function(edata) {
         names(edata) <- gsub("Acc", "acceleration", 
                              names(edata))
         names(edata) <- gsub("Mag", "magnitude", names(edata))
-        names(edata) <- gsub("std", "StandardDeviation", 
+        names(edata) <- gsub("std", "standarddeviation", 
                              names(edata))
         
         # I see some places "Body" is duplicated in
